@@ -134,3 +134,42 @@ form button{
     flex-wrap:wrap;
   }
 }
+/* ===== PREMIUM MEDICAL UI STYLE ===== */
+
+.hero{
+  text-align:center;
+  padding:140px 8%;
+  background: linear-gradient(rgba(13,110,253,0.9), rgba(13,110,253,0.85)),
+  url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1400&q=80');
+  color:white;
+  background-size:cover;
+}
+
+.hero h1{
+  font-size:48px;
+  margin-bottom:25px;
+}
+
+.hero p{
+  max-width:800px;
+  margin:auto;
+  font-size:18px;
+}
+
+/* Floating card animation */
+
+.card{
+  transition:0.4s ease;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+}
+
+/* Mobile premium spacing */
+
+@media(max-width:768px){
+  .hero h1{
+    font-size:32px;
+  }
+}
